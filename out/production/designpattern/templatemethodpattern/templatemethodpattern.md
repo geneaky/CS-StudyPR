@@ -33,3 +33,6 @@
 이러한 강한 결합을 상속 말고 위임을 통해 인터페이스를 사용하여 결합을 다소 해결할 수 있다.
 ->> 이런 방식이 전략 패턴(strategy pattern)
 
+spring의 dispatcherservlet이 template method를 사용한 예로
+dispatecherservlet은 httpservlet의 doService 추상 메서드를 구현하여
+processRequest를 호출하면 구현한 doService가 실행되는 형태로 http request를 처리한다.
