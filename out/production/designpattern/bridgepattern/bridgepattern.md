@@ -13,3 +13,8 @@ refinedAbstraction : 기능 클래스 계층의 화위 클래스, 기능을 추�
 implementor : 구현 클래스 계층의 상위 클래스 , 인터페이스 규정
 concrete implementor : 구현 클래스 계층의 하위 클래스 , 인터페이스 정의
 
+기능과 구현 계층을 분리하므로써 확장이 편리해짐
+
+사용 사례
+
+
